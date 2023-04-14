@@ -1,0 +1,20 @@
+{
+     "personas" : [
+          {
+               "nombre": "Samuel",
+               "apellido": "Novoa"
+          },
+          {
+               "nombre": "Juanes",
+               "apellido": "Fonseca"
+          },
+          {
+               "nombre": "Daniel",
+               "apellido": "Ortega"
+          },
+          {
+               "nombre": "Jonatan",
+               "apellido": "Novoa"
+          }
+     ]
+}

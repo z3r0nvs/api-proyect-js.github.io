@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+  const onLoadFunction = require('./programa-data');
   return (
     <div className="App">
-
-      <h1>HOLA MUNDO</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {onLoadFunction}
+        <div class="listaNombres"></div>
         <a
           className="App-link"
           href="https://reactjs.org"
